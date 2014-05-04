@@ -1,0 +1,29 @@
+total 92
+dr-xr-xr-x.  2 root root  4096 Dec 17  2012 bin
+dr-xr-xr-x.  4 root root  4096 Jul 30  2013 boot
+drwxr-xr-x  15 root root  3200 May  4 12:10 dev
+drwxr-xr-x. 61 root root  4096 May  4 16:54 etc
+drwxr-xr-x.  2 root root  4096 Sep 23  2011 home
+dr-xr-xr-x.  8 root root  4096 Jul 30  2013 lib
+dr-xr-xr-x.  7 root root 12288 May  4 14:52 lib64
+drwx------.  2 root root 16384 Dec 17  2012 lost+found
+drwxr-xr-x.  2 root root  4096 Sep 23  2011 media
+drwxr-xr-x.  2 root root  4096 Sep 23  2011 mnt
+drwxr-xr-x.  2 root root  4096 Sep 23  2011 opt
+dr-xr-xr-x  82 root root     0 May  4  2014 proc
+drwxr-xr-x.  8 root root  4096 May  4 17:32 root
+dr-xr-xr-x.  2 root root  4096 May  4 14:52 sbin
+drwxr-xr-x.  2 root root  4096 Dec 17  2012 selinux
+drwxr-xr-x.  2 root root  4096 Sep 23  2011 srv
+drwxr-xr-x  13 root root     0 May  4  2014 sys
+drwxrwxrwt.  3 root root  4096 May  4 17:26 tmp
+drwxr-xr-x. 13 root root  4096 Dec 17  2012 usr
+drwxr-xr-x. 18 root root  4096 May  4 13:37 var
+total 28
+-rwxr-xr-x 1 root root 3085 Jul 30  2013 auto_fdisk.sh
+drwxr-xr-x 8 root root 4096 May  4 17:34 blog
+drwxr-xr-x 5 root root 4096 May  4 17:32 installed
+drwxr-xr-x 2 root root 4096 May  4 17:33 logs
+-rwxrwxr-- 1 root root   44 May  4 14:40 runvenv-27.sh
+drwxr-xr-x 2 root root 4096 May  4 16:43 static
+drwxr-xr-x 7 root root 4096 May  4 16:52 venv-27
