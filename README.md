@@ -27,6 +27,10 @@ make && make install
 之后增加一条内容，此内容会被/etc/httpd/conf/httpd.conf文件读取
 echo 'LoadModule wsgi_module modules/mod_wsgi.so' > /etc/httpd/conf.d/wsgi.conf
 
+## http.conf 配置文件
+在doc/httpd.conf文件中，展示了一个可以使用的配置文件的demo
+在系统中的位置一般是/etc/httpd/conf/httpd.conf
+
 ## 问题
 安装好httpd之后，如果启动https时出现 httpd: Could not reliably determine the server's fully qualified domain name
 则编辑httpd.conf文件，修改
@@ -38,8 +42,9 @@ yum install sqlite-devel.x86_64
 pip install pysqlite(在venv-27下)
 
 配置httpd之后，若网页显示forbidden access的话，可以试着 chmod 755 /root
+root下面的各种文件的权限在doc/root_permission.txt展示
 
-这一切都是在root用户下，apache的User_group为apache，附带的httpd.conf可以参考
+这一切都是在root用户下，apache的User_group为apache，附带的doc/httpd.conf可以参考
 若此时关联的域名需要备案，则使用aliyun提供的ip来查看网页,域名会被限制访问，但是ip不会。
 
 
