@@ -25,9 +25,9 @@ except ImportError:
 SECRET_KEY = 't(p@+jn4-g!l(9cbfvjguq+bm!qze=2!-9oe74l-abf7om9o*v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False 
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False 
 
 ALLOWED_HOSTS = ['localhost', BLOG_DOMAIN, IP_ADDRESS]
 
